@@ -1,0 +1,19 @@
+﻿<Page x:Class="CAR_BD.WhereTheCar"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CAR_BD"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="WhereTheCar">
+
+    <Grid>
+        <DataGrid x:Name="avto" Margin="171,10,242,225"/>
+        <Button x:Name="exit" Content="Выход в меню" Margin="576,350,10,10" Click="exit_Click"/>
+        <TextBox x:Name="WhereTHECar"  Margin="25,283,549,129" Text="Введите Страну"/>
+        <Button x:Name="AddWhereTheCar" Margin="10,350,683,45" Content="Добавить" Click="AddWhereTheCar_Click"/>
+        <Button x:Name="DeleteWhereTheCar" Content="Удалить" Margin="122,350,571,45" Click="DeleteWhereTheCar_Click"/>
+        <Button x:Name="UpdateWhereTheCar" Content="Обновить" Margin="234,350,459,45" Click="UpdateWhereTheCar_Click"/>
+    </Grid>
+</Page>
